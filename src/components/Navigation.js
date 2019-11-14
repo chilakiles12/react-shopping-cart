@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
-// Contexts
+// Contexts, imported named context
 import { CartContext } from '../contexts/CartContext.js';
 
+//removed props and used cartContext 'length'
 const Navigation = () => {
   const { cart } = useContext(CartContext);
   return (

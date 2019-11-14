@@ -1,5 +1,6 @@
 import React from 'react';
 
+//didn't use context for this component
 const Product = props => {
   return (
     <div className="product">
